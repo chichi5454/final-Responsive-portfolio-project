@@ -1,0 +1,10 @@
+/** @format */
+
+@media screen and (max-width: 1000px) {
+  #nav-bar {
+    display: none;
+  }
+  .nav-humburger {
+    display: flex;
+  }
+}

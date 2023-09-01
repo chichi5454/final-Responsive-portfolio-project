@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="src/mediaqueries.css" />
   </head>
   <body>
+    <!-- nav bar-large screen -->
     <nav id="nav-bar">
       <div class="nav-logo">Lauryn Mutai</div>
       <div>
@@ -29,5 +30,32 @@
         </ul>
       </div>
     </nav>
+    <!-- hamburger menu/nav bar for small screen -->
+    <nav class="nav-humburger">
+      <div class="nav-logo">Lauryn Mutai</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toogleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="hamburger-links">
+          <li>
+            <a href="index.html" onclick="toogleMenu()">Home</a>
+          </li>
+          <li>
+            <a href="File/about.html" onclick="toogleMenu()">About</a>
+          </li>
+          <li>
+            <a href="File/contact.html" onclick="toogleMenu()">Contact</a>
+          </li>
+          <li>
+            <a href="File/work.html" onclick="toogleMenu()">Work</a>
+          </li>
+        </div>
+      </div>
+    </nav>
+    <script src="app.js"></script>
   </body>
 </html>
+<!-- section -->
