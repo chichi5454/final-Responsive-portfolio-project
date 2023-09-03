@@ -152,6 +152,7 @@ section {
 .section-text {
   align-self: center;
   text-align: center;
+  margin-top: 20px;
 }
 .section-text p {
   font-weight: 600;
@@ -161,7 +162,7 @@ section {
   text-align: center;
 }
 
-.section-text-p2 {
+.section-text .section-text-p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
@@ -169,23 +170,29 @@ section {
   font-size: 3rem;
   text-align: center;
 }
-
-#socials-container .linkedin-icon .fa-brands.fa-linkedin {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-  gap: 1rem;
-  cursor: pointer;
-  height: 2rem;
+.section-text-p1,
+.title,
+.section-text-p2 {
+  color: var(--fourth-color);
+  margin-bottom: 10px; /* Add margin to the bottom of each element */
 }
+
+#socials-container .linkedin-icon .fa-brands.fa-linkedin,
 #socials-container .github-icon .fa-brands.fa-github {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
   cursor: pointer;
-  height: 2rem;
+  font-size: 2rem; /* Increase the font-size to make the icons larger */
+  margin-right: 2rem;
 }
+
+#socials-container .linkedin-icon,
+#socials-container .github-icon {
+  display: inline-block;
+}
+
 /* buttons */
 .btn-container {
   display: flex;
