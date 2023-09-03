@@ -6,16 +6,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Portfolio- Lauryn</title>
-    <link rel="stylesheet" href="src/styles.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous" />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"></script>
+    <style>
+      /* Style the links */
+      .btn-container a {
+        font-weight: 600;
+        transition: all 300ms ease;
+        padding: 1rem;
+        width: 8rem;
+        border-radius: 2rem;
+        text-align: center; /* Center-align text */
+        text-decoration: none; /* Remove underline */
+      }
+
+      /* Button 1 styles */
+      .btn-container .btn-container-1 {
+        color: var(--primary-color);
+        background-color: var(--third-color);
+        /* contact */
+      }
+
+      .btn-container .btn-container-1:hover {
+        color: var(--third-color);
+        background-color: var(--primary-color);
+      }
+
+      /* Button 2 styles */
+      .btn-container .btn-container-2 {
+        color: var(--third-color);
+        background-color: var(--primary-color);
+        /* resume */
+      }
+
+      .btn-container .btn-container-2:hover {
+        color: var(--primary-color);
+        background-color: var(--third-color);
+      }
+
+      /* Optional: Add a border to the buttons on hover */
+      .btn-container a:hover {
+        border: 0.1rem solid; /* Add a border on hover */
+      }
+
+      /* Optional: Add a cursor pointer to the links */
+      .btn-container a {
+        cursor: pointer;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="btn-container">
+      <a href="/src/PA Resume.pdf" class="btn btn-container-2">Resume</a>
+      <a href="#contact" class="btn btn-container-1">Contact Me</a>
+    </div>
+  </body>
 </html>
