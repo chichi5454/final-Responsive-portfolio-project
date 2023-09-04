@@ -7,4 +7,22 @@
   .nav-humburger {
     display: flex;
   }
+  #profile {
+    position: relative;
+  }
+  #about {
+    position: inherit;
+  }
+  #experience {
+    position: inherit;
+  }
+  #projects {
+    position: fixed;
+  }
+  #profile,
+  #about,
+  #experience,
+  #projects {
+    max-width: fit-content;
+  }
 }
