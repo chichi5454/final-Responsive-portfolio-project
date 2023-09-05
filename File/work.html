@@ -6,57 +6,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Portfolio- Lauryn</title>
-    <style>
-      /* Style the links */
-      .btn-container a {
-        font-weight: 600;
-        transition: all 300ms ease;
-        padding: 1rem;
-        width: 8rem;
-        border-radius: 2rem;
-        text-align: center; /* Center-align text */
-        text-decoration: none; /* Remove underline */
-      }
-
-      /* Button 1 styles */
-      .btn-container .btn-container-1 {
-        color: var(--primary-color);
-        background-color: var(--third-color);
-        /* contact */
-      }
-
-      .btn-container .btn-container-1:hover {
-        color: var(--third-color);
-        background-color: var(--primary-color);
-      }
-
-      /* Button 2 styles */
-      .btn-container .btn-container-2 {
-        color: var(--third-color);
-        background-color: var(--primary-color);
-        /* resume */
-      }
-
-      .btn-container .btn-container-2:hover {
-        color: var(--primary-color);
-        background-color: var(--third-color);
-      }
-
-      /* Optional: Add a border to the buttons on hover */
-      .btn-container a:hover {
-        border: 0.1rem solid; /* Add a border on hover */
-      }
-
-      /* Optional: Add a cursor pointer to the links */
-      .btn-container a {
-        cursor: pointer;
-      }
-    </style>
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="stylesheet" href="/src/mediaqueries.css" />
+    <script
+      src="https://kit.fontawesome.com/7723b8078b.js"
+      crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="btn-container">
-      <a href="/src/PA Resume.pdf" class="btn btn-container-2">Resume</a>
-      <a href="#contact" class="btn btn-container-1">Contact Me</a>
-    </div>
+    <!-- section-projects -->
+    <section id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="text-container">
+        <p>
+          <i class="fa-solid fa-snowflake"></i>
+          I am proficient in <strong>HTML, CSS, </strong>and
+          <strong>JavaScript</strong>, I'm also on the cusp of exploring
+          frontend frameworks like <strong>React </strong> and
+          <strong>Node JS </strong>
+          <br />
+          <i class="fa-solid fa-snowflake"></i>
+
+          My passion lies in creating captivating web experiences that provide
+          genuine user value. I am currently furthering my expertise through
+          SheCodes Responsive& SheCodes React.
+        </p>
+      </div>
+      <div class="projects-section">
+        <div class="project-1">
+          <img
+            src="/src/weatherapp (2).png"
+            alt="weather app"
+            width="100%"
+            class="project-image" />
+          <h4 class="section-text-p1">Weather App</h4>
+          <p class="section-text-p1">Built with: HTML, CSS, JS and API</p>
+          <button class="btn-container-2">Open</button>
+        </div>
+        <div class="project-1">
+          <img
+            src="/src/portfolio.png"
+            alt="Tea landing page"
+            width="100%"
+            class="project-image" />
+          <h4 class="section-text-p1">Portfolio Project</h4>
+          <p class="section-text-p1">Built with: HTML, CSS and Boostrap</p>
+          <button class="btn-container-2">Open</button>
+        </div>
+        <div class="project-1">
+          <img
+            src="/src/1st-weatherapp.png"
+            alt="weather app"
+            width="100%"
+            class="project-image" />
+          <h4 class="section-text-p1">Weather App</h4>
+          <p class="section-text-p1">Built with: HTML, CSS and JS</p>
+          <button class="btn-container-2">Open</button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
