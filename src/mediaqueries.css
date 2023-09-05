@@ -11,18 +11,25 @@
     position: relative;
   }
   #about {
-    position: inherit;
+    position: relative;
   }
   #experience {
-    position: inherit;
+    position: relative;
   }
   #projects {
-    position: fixed;
+    position: inherit;
   }
   #profile,
   #about,
   #experience,
   #projects {
     max-width: fit-content;
+  }
+  .arrow {
+    display: none;
+  }
+  #projects {
+    margin-top: 5rem;
+    position: relative;
   }
 }
