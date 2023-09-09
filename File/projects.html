@@ -1,0 +1,189 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous" />
+    <script
+      src="https://kit.fontawesome.com/7723b8078b.js"
+      crossorigin="anonymous"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Josefin+Slab:wght@200;400;500&family=Recursive&display=swap");
+
+      :root {
+        --primary-color: #faf0e6;
+        --second-color: #b9b4c7;
+        --third-color: #352f44;
+        --fourth-color: #352f44;
+        --primary-font-family: "Josefin Sans", sans-serif;
+        --secondary-font-family: "Recursive", sans-serif;
+        --third-font-family: "Josefin Slab", serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: var(--secondary-font-family);
+        color: var(--third-color);
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      p {
+        color: var(--fourth-color);
+        margin: 1rem;
+        padding: 2rem;
+
+        border: none;
+        border-radius: none;
+      }
+      .project-img p {
+        text-align: center;
+        font-weight: 1000;
+        padding: 1rem;
+        width: 50%;
+        justify-content: center;
+        margin-left: 15rem;
+        border: none;
+        border-radius: none;
+      }
+      .grid {
+        display: flex;
+        flex-direction: row;
+      }
+      .col-4 {
+        flex: 1;
+        margin-bottom: 1rem;
+      }
+      .project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid var(--second-color);
+        border-radius: 20px;
+        margin-bottom: 1rem;
+      }
+      .details {
+        flex-direction: column !important;
+        margin-top: 0;
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        color: var(--third-color);
+        font-weight: 50;
+        line-height: 0.5;
+        font-size: small;
+        margin: 10px;
+      }
+      a:hover {
+        color: var(--third-color);
+        text-decoration: var(--third-color);
+        text-decoration: underline;
+        text-underline-offset: 1rem;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 1rem;
+      }
+      h1 {
+        font-size: large !important;
+      }
+      h1 a {
+        font-style: normal;
+        color: rgba(47, 116, 179, 0.7);
+        font-size: 30px;
+        text-decoration: underline;
+        text-underline-offset: 1rem;
+      }
+      h1 a:hover {
+        color: var(--third-color);
+      }
+      h2 {
+        font-weight: 200;
+      }
+      span {
+        font-style: italic;
+        font-weight: 100;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <a href="/index.html" class="fw-bold">Back Home</a>
+      </h1>
+      <p>
+        <i class="fa-solid fa-snowflake"></i>
+        I am proficient in <strong>HTML, CSS, </strong>and
+        <strong>JavaScript</strong>, I'm also on the cusp of exploring frontend
+        frameworks like <strong>React </strong> and
+        <strong>Node JS </strong>
+        <br />
+        <i class="fa-solid fa-snowflake"></i>
+
+        My passion lies in creating captivating web experiences that provide
+        genuine user value. I am currently furthering my expertise through
+        SheCodes Responsive& SheCodes React.
+      </p>
+      <div class="project-img">
+        <p class="fw-bold">Below are the projects i have Built so far:</p>
+      </div>
+      <div class="grid row">
+        <div class="col-4">
+          <img src="/src/1st-weatherapp.png" alt="weather app" width="100%" />
+          <div class="details">
+            <h4>
+              <a
+                href="https://graceful-pony-676f91.netlify.app/"
+                alt="weatherapp"
+                target="_blank"
+                class="fw-bold">
+                1st Weather App
+              </a>
+            </h4>
+            <span>Built with: HTML, CSS and JS</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="/src/portfolio.png" alt="Portfolio-lauryn" width="100%" />
+          <div class="details">
+            <h4>
+              <a
+                href="https://vermillion-mochi-45d49b.netlify.app/"
+                alt="weatherapp"
+                target="_blank"
+                class="fw-bold">
+                Responsive Portfolio Project
+              </a>
+            </h4>
+            <span>Built with: HTML, CSS and Boostrap</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="/src/weatherapp (2).png" alt="weather app" width="100%" />
+          <div class="details">
+            <h4>
+              <a
+                href="https://graceful-pony-676f91.netlify.app/"
+                alt="weatherapp"
+                target="_blank"
+                class="fw-bold">
+                Weather App
+              </a>
+            </h4>
+            <span>Built with: HTML, CSS, API and JS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
