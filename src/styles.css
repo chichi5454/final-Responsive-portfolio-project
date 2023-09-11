@@ -129,7 +129,7 @@ a:hover {
 /* section styling */
 section {
   padding-top: 2vh;
-  height: 60vh;
+
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -142,7 +142,6 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
 }
 .profile-photo {
   border-radius: 50%;
@@ -400,7 +399,6 @@ section {
 /* footer */
 /* Adjusted CSS for the footer */
 #footer {
-  margin-top: 15rem;
   display: flex;
   justify-content: center;
   align-items: center;
